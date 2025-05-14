@@ -1,26 +1,104 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Sayfa 8";
+const pageTitle = "Türk Kahvesi - Kahve Yapım Teknikleri";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Sayfa 8 Başlığı</h2>
-  <p>Bu sayfa 8'in içeriğidir. Consectetur adipiscing elit...</p>
-  <p>Diğer sayfalara linkler:</p>
-  <ul>
-    <li><a href="/sayfa1">Sayfa 1'e git</a></li>
-    <li><a href="/sayfa2">Sayfa 2'ye git</a></li>
-    <li><a href="/sayfa3">Sayfa 3'e git</a></li>
-    <li><a href="/sayfa4">Sayfa 4'e git</a></li>
-    <li><a href="/sayfa5">Sayfa 5'e git</a></li>
-    <li><a href="/sayfa6">Sayfa 6'ya git</a></li>
-    <li><a href="/sayfa7">Sayfa 7'ye git</a></li>
-    <li><a href="/sayfa9">Sayfa 9'a git</a></li>
-    <li><a href="/sayfa10">Sayfa 10'a git</a></li>
-    <li><a href="/sayfa11">Sayfa 11'e git</a></li>
-    <li><a href="/sayfa12">Sayfa 12'ye git</a></li>
-    <li><a href="/sayfa13">Sayfa 13'e git</a></li>
-    <li><a href="/sayfa14">Sayfa 14'e git</a></li>
-    <li><a href="/sayfa15">Sayfa 15'e git</a></li>
-    <li><a href="/">Ana Sayfa'ya dön</a></li>
-  </ul>
+  <article class="coffee-article">
+    <h2>Türk Kahvesi</h2>
+    
+    <img src="https://images.unsplash.com/photo-1541173109020-9c5d8a48e169?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Türk Kahvesi" class="coffee-image">
+    
+    <div class="coffee-info">
+      <span class="coffee-info-item">Zorluk: Orta</span>
+      <span class="coffee-info-item">Süre: 5-7 dk</span>
+      <span class="coffee-info-item">Yoğunluk: Orta-Yüksek</span>
+      <span class="coffee-info-item">Ekipman: Cezve</span>
+    </div>
+    
+    <p class="lead">Türk kahvesi, çok ince öğütülmüş kahvenin cezve adı verilen özel bir kapta, genellikle şekerle birlikte pişirilmesiyle hazırlanan, köpüklü ve yoğun bir kahve çeşididir. UNESCO tarafından İnsanlığın Somut Olmayan Kültürel Mirası listesine alınmıştır.</p>
+    
+    <h3>Türk Kahvesinin Özellikleri</h3>
+    <p>Türk kahvesi, diğer kahve demleme yöntemlerinden farklı olarak, kahve telvesi ile birlikte servis edilir. Çok ince öğütülmüş kahve, suda çözünmez ve fincanın dibine çöker. Türk kahvesinin en belirgin özelliği, üzerinde oluşan köpüktür. İyi bir Türk kahvesi, yoğun, aromatik ve üzerinde kalın bir köpük tabakasına sahip olmalıdır.</p>
+    
+    <h3>Gerekli Ekipmanlar</h3>
+    <ul>
+      <li>Cezve (bakır, pirinç veya paslanmaz çelik)</li>
+      <li>Türk kahvesi fincanları</li>
+      <li>Türk kahvesi ölçü kaşığı</li>
+      <li>Ocak veya kumda kahve pişirme ekipmanı</li>
+    </ul>
+    
+    <h3>Malzemeler (2 fincan için)</h3>
+    <ul>
+      <li>2 Türk kahvesi fincanı soğuk su (yaklaşık 150 ml)</li>
+      <li>2 tatlı kaşığı Türk kahvesi (çok ince öğütülmüş)</li>
+      <li>İsteğe bağlı: şeker (kişi başı 0-2 tatlı kaşığı)</li>
+    </ul>
+    
+    <h3>Hazırlama Adımları</h3>
+    <ol class="recipe-steps">
+      <li>Fincanları sıcak su ile ısıtın (isteğe bağlı).</li>
+      <li>Cezveye soğuk su koyun.</li>
+      <li>Kahveyi ve isteğe bağlı olarak şekeri cezveye ekleyin, karıştırmayın.</li>
+      <li>Cezveyi düşük ateşe koyun ve kahve suyun üzerinde yüzerken yavaşça karıştırın.</li>
+      <li>Karıştırmayı bırakın ve kahvenin yavaşça ısınmasını bekleyin.</li>
+      <li>Kahve kabarmaya başladığında (köpük oluştuğunda), cezveyi ateşten alın.</li>
+      <li>Köpüğü fincanlara eşit olarak paylaştırın.</li>
+      <li>Cezveyi tekrar ateşe koyun ve kahvenin tekrar kabarmasını bekleyin.</li>
+      <li>Kabaran kahveyi fincanlara dökün ve servis edin.</li>
+    </ol>
+    
+    <h3>İpuçları</h3>
+    <div class="coffee-card">
+      <ul>
+        <li>Türk kahvesi için en önemli nokta, çok ince öğütülmüş kahve kullanmaktır (pudra şekeri kıvamında).</li>
+        <li>Kahveyi düşük ateşte, yavaş yavaş pişirin. Hızlı pişirme, köpüğün oluşmasını engeller.</li>
+        <li>Köpük, iyi bir Türk kahvesinin işaretidir. Köpüğü fincanlara eşit dağıtmaya özen gösterin.</li>
+        <li>Geleneksel olarak, Türk kahvesi üç şekilde servis edilir: sade (şekersiz), orta (az şekerli) ve şekerli.</li>
+        <li>Türk kahvesi yanında genellikle su ve lokum veya çikolata servis edilir.</li>
+        <li>Kumda kahve pişirme yöntemi, daha yavaş ve eşit ısı dağılımı sağlayarak daha iyi köpük oluşturur.</li>
+      </ul>
+    </div>
+    
+    <h3>Türk Kahvesi Kültürü</h3>
+    <p>Türk kahvesi, sadece bir içecek değil, aynı zamanda zengin bir kültürel gelenektir. "Bir fincan kahvenin kırk yıl hatırı vardır" sözü, Türk kültüründe kahvenin önemini vurgular. Türk kahvesi, misafirperverliğin, dostluğun ve sohbetin simgesidir.</p>
+    
+    <p>Geleneksel olarak, Türk kahvesi içildikten sonra fincanın dibinde kalan telve ile fal bakılır. Bu, kahve içme ritüelinin eğlenceli bir parçasıdır ve yüzyıllardır süregelen bir gelenektir.</p>
+    
+    <h3>Türk Kahvesi Çeşitleri</h3>
+    <p>Klasik Türk kahvesinin yanı sıra, farklı aromalarla zenginleştirilmiş çeşitleri de vardır:</p>
+    <ul>
+      <li><strong>Menengiç Kahvesi:</strong> Antep fıstığı ağacının meyvelerinden yapılan, fıstık aromalı bir kahve.</li>
+      <li><strong>Dibek Kahvesi:</strong> Taş havanlarda dövülerek hazırlanan, daha kaba öğütülmüş bir Türk kahvesi.</li>
+      <li><strong>Damla Sakızlı Türk Kahvesi:</strong> Sakız ağacından elde edilen damla sakızı ile aromalandırılmış kahve.</li>
+      <li><strong>Çikolatalı Türk Kahvesi:</strong> Kahveye çikolata tozu eklenerek hazırlanan tatlı bir varyasyon.</li>
+    </ul>
+    
+    <div class="navigation-links">
+      <a href="/sayfa9">Sonraki: Arabica →</a>
+      <a href="/sayfa7">← Önceki: Cold Brew</a>
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  .coffee-article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+</style>

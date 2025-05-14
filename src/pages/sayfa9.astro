@@ -1,26 +1,178 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Sayfa 9";
+const pageTitle = "Arabica - Kahve Çeşitleri";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Sayfa 9 Başlığı</h2>
-  <p>Bu sayfa 9'un içeriğidir. Consectetur adipiscing elit...</p>
-  <p>Diğer sayfalara linkler:</p>
-  <ul>
-    <li><a href="/sayfa1">Sayfa 1'e git</a></li>
-    <li><a href="/sayfa2">Sayfa 2'ye git</a></li>
-    <li><a href="/sayfa3">Sayfa 3'e git</a></li>
-    <li><a href="/sayfa4">Sayfa 4'e git</a></li>
-    <li><a href="/sayfa5">Sayfa 5'e git</a></li>
-    <li><a href="/sayfa6">Sayfa 6'ya git</a></li>
-    <li><a href="/sayfa7">Sayfa 7'ye git</a></li>
-    <li><a href="/sayfa8">Sayfa 8'e git</a></li>
-    <li><a href="/sayfa10">Sayfa 10'a git</a></li>
-    <li><a href="/sayfa11">Sayfa 11'e git</a></li>
-    <li><a href="/sayfa12">Sayfa 12'ye git</a></li>
-    <li><a href="/sayfa13">Sayfa 13'e git</a></li>
-    <li><a href="/sayfa14">Sayfa 14'e git</a></li>
-    <li><a href="/sayfa15">Sayfa 15'e git</a></li>
-    <li><a href="/">Ana Sayfa'ya dön</a></li>
-  </ul>
+  <article class="coffee-article">
+    <h2>Arabica Kahve</h2>
+    
+    <img src="https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Arabica Kahve Çekirdekleri" class="coffee-image">
+    
+    <div class="coffee-info">
+      <span class="coffee-info-item">Tür: Coffea Arabica</span>
+      <span class="coffee-info-item">Orijin: Etiyopya</span>
+      <span class="coffee-info-item">Kafein: %1.2-1.8</span>
+      <span class="coffee-info-item">Dünya Üretimi: ~60%</span>
+    </div>
+    
+    <p class="lead">Arabica (Coffea arabica), dünya kahve üretiminin yaklaşık %60'ını oluşturan, yumuşak içimli, aromatik ve kaliteli kahve çeşididir. Kahve dünyasında "gourmet" veya "specialty" olarak adlandırılan premium kahvelerin çoğu Arabica türündendir.</p>
+    
+    <h3>Arabica'nın Tarihi ve Kökeni</h3>
+    <p>Arabica kahvesi, adını Arapça'dan alsa da, aslında Etiyopya'nın yüksek bölgelerinde doğal olarak yetişen bir türdür. Efsaneye göre, 9. yüzyılda bir Etiyopyalı keçi çobanı olan Kaldi, keçilerinin bazı kırmızı meyveli çalıları yedikten sonra olağanüstü enerjik davrandıklarını fark etmiş ve bu kahve bitkisinin keşfine yol açmıştır.</p>
+    
+    <p>Arabica kahvesi, 15. yüzyılda Yemen'e getirilmiş ve buradan dünyaya yayılmıştır. Bugün, Etiyopya, Kolombiya, Brezilya, Guatemala, Kosta Rika, Kenya ve daha birçok ülkede yetiştirilmektedir.</p>
+    
+    <h3>Arabica'nın Özellikleri</h3>
+    <div class="coffee-card">
+      <h4>Botanik Özellikleri</h4>
+      <ul>
+        <li>Arabica bitkisi, 2.5-4.5 metre boyunda, çalı benzeri bir ağaçtır.</li>
+        <li>Oval şekilli, parlak yeşil yapraklara sahiptir.</li>
+        <li>Çiçekleri beyaz ve yasemin benzeri bir kokuya sahiptir.</li>
+        <li>Meyveleri (kahve kirazları) olgunlaştığında kırmızı renk alır.</li>
+        <li>Her meyve genellikle iki adet düz, oval kahve çekirdeği içerir.</li>
+        <li>Yüksek rakımlarda (600-2000 metre) yetişir.</li>
+        <li>Robusta'ya göre daha hassastır ve hastalıklara karşı daha duyarlıdır.</li>
+      </ul>
+    </div>
+    
+    <h3>Tat Profili</h3>
+    <p>Arabica kahvesi, genellikle şu tat özellikleriyle tanımlanır:</p>
+    <ul>
+      <li>Yumuşak ve dengeli bir içim</li>
+      <li>Hafif asitlik (bölgeye göre değişir)</li>
+      <li>Karmaşık aromalar (çiçeksi, meyvemsi, çikolata, fındık notaları)</li>
+      <li>Robusta'ya göre daha az acılık</li>
+      <li>Daha düşük kafein içeriği (%1.2-1.8)</li>
+      <li>Daha yüksek şeker içeriği</li>
+    </ul>
+    
+    <h3>Popüler Arabica Çeşitleri</h3>
+    <p>Arabica'nın birçok alt türü ve varyetesi vardır. En popüler olanları şunlardır:</p>
+    <ul>
+      <li><strong>Typica:</strong> En eski Arabica varyetelerinden biri, dengeli ve temiz bir tada sahiptir.</li>
+      <li><strong>Bourbon:</strong> Typica'dan türetilmiş, daha tatlı ve meyvemsi notalar içerir.</li>
+      <li><strong>Caturra:</strong> Bourbon'un bir mutasyonu, daha yüksek asitliğe sahiptir.</li>
+      <li><strong>Gesha/Geisha:</strong> Çiçeksi ve meyvemsi notalarıyla ünlü, premium bir varyete.</li>
+      <li><strong>SL28 ve SL34:</strong> Kenya'da geliştirilen, yoğun meyvemsi tatlara sahip varyeteler.</li>
+      <li><strong>Pacamara:</strong> Pacas ve Maragogipe varyetelerinin melezi, büyük çekirdeklere sahiptir.</li>
+    </ul>
+    
+    <h3>Yetiştirme Bölgeleri ve Karakteristik Tatlar</h3>
+    <div class="coffee-card">
+      <h4>Önemli Arabica Yetiştirme Bölgeleri:</h4>
+      <ul>
+        <li><strong>Etiyopya:</strong> Çiçeksi, meyvemsi, bergamot ve çay notaları</li>
+        <li><strong>Kolombiya:</strong> Dengeli, orta gövdeli, karamel ve fındık notaları</li>
+        <li><strong>Guatemala:</strong> Çikolata, karamel ve baharatlı notalar</li>
+        <li><strong>Kosta Rika:</strong> Temiz, parlak, turunçgil ve karamel notaları</li>
+        <li><strong>Kenya:</strong> Yoğun asitlik, böğürtlen ve kırmızı meyve notaları</li>
+        <li><strong>Brezilya:</strong> Düşük asitlik, çikolata ve fındık notaları</li>
+        <li><strong>Panama:</strong> Çiçeksi, meyvemsi, özellikle Gesha varyetesi ile ünlü</li>
+        <li><strong>Hawaii (Kona):</strong> Yumuşak, hafif tatlı, fındık ve karamel notaları</li>
+      </ul>
+    </div>
+    
+    <h3>İşleme Yöntemleri</h3>
+    <p>Arabica kahvesi, farklı işleme yöntemleriyle hazırlanabilir, bu da farklı tat profillerine yol açar:</p>
+    <ul>
+      <li><strong>Yıkanmış (Washed):</strong> Temiz, parlak ve asitli bir profil sunar.</li>
+      <li><strong>Doğal (Natural):</strong> Daha meyvemsi, tatlı ve gövdeli bir profil sunar.</li>
+      <li><strong>Bal İşleme (Honey Process):</strong> Yıkanmış ve doğal arasında, dengeli tatlılık ve asitlik sunar.</li>
+      <li><strong>Anaerobik Fermantasyon:</strong> Yoğun meyvemsi ve egzotik aromalar sunar.</li>
+    </ul>
+    
+    <h3>Arabica vs. Robusta</h3>
+    <p>Arabica ve Robusta arasındaki temel farklar:</p>
+    <table class="coffee-table">
+      <tr>
+        <th>Özellik</th>
+        <th>Arabica</th>
+        <th>Robusta</th>
+      </tr>
+      <tr>
+        <td>Kafein İçeriği</td>
+        <td>%1.2-1.8</td>
+        <td>%1.7-4.0</td>
+      </tr>
+      <tr>
+        <td>Şeker İçeriği</td>
+        <td>%6-9</td>
+        <td>%3-7</td>
+      </tr>
+      <tr>
+        <td>Tat Profili</td>
+        <td>Yumuşak, aromatik, asitli</td>
+        <td>Güçlü, acı, yoğun</td>
+      </tr>
+      <tr>
+        <td>Yetiştirme Yüksekliği</td>
+        <td>600-2000 metre</td>
+        <td>0-800 metre</td>
+      </tr>
+      <tr>
+        <td>Hastalıklara Dayanıklılık</td>
+        <td>Düşük</td>
+        <td>Yüksek</td>
+      </tr>
+      <tr>
+        <td>Dünya Üretimi</td>
+        <td>~%60</td>
+        <td>~%40</td>
+      </tr>
+      <tr>
+        <td>Fiyat</td>
+        <td>Daha yüksek</td>
+        <td>Daha düşük</td>
+      </tr>
+    </table>
+    
+    <div class="navigation-links">
+      <a href="/sayfa10">Sonraki: Robusta →</a>
+      <a href="/sayfa8">← Önceki: Türk Kahvesi</a>
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  .coffee-article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+  
+  .coffee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+  
+  .coffee-table th, .coffee-table td {
+    border: 1px solid var(--secondary-color);
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .coffee-table th {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+  }
+  
+  .coffee-table tr:nth-child(even) {
+    background-color: #FFFAF0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+</style>

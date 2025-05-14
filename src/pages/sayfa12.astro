@@ -1,26 +1,130 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Sayfa 12";
+const pageTitle = "Excelsa - Kahve Çeşitleri";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Sayfa 12 Başlığı</h2>
-  <p>Bu sayfa 12'nin içeriğidir. Consectetur adipiscing elit...</p>
-  <p>Diğer sayfalara linkler:</p>
-  <ul>
-    <li><a href="/sayfa1">Sayfa 1'e git</a></li>
-    <li><a href="/sayfa2">Sayfa 2'ye git</a></li>
-    <li><a href="/sayfa3">Sayfa 3'e git</a></li>
-    <li><a href="/sayfa4">Sayfa 4'e git</a></li>
-    <li><a href="/sayfa5">Sayfa 5'e git</a></li>
-    <li><a href="/sayfa6">Sayfa 6'ya git</a></li>
-    <li><a href="/sayfa7">Sayfa 7'ye git</a></li>
-    <li><a href="/sayfa8">Sayfa 8'e git</a></li>
-    <li><a href="/sayfa9">Sayfa 9'a git</a></li>
-    <li><a href="/sayfa10">Sayfa 10'a git</a></li>
-    <li><a href="/sayfa11">Sayfa 11'e git</a></li>
-    <li><a href="/sayfa13">Sayfa 13'e git</a></li>
-    <li><a href="/sayfa14">Sayfa 14'e git</a></li>
-    <li><a href="/sayfa15">Sayfa 15'e git</a></li>
-    <li><a href="/">Ana Sayfa'ya dön</a></li>
-  </ul>
+  <article class="coffee-article">
+    <h2>Excelsa Kahve</h2>
+    
+    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Excelsa Kahve Çekirdekleri" class="coffee-image">
+    
+    <div class="coffee-info">
+      <span class="coffee-info-item">Tür: Coffea excelsa / Coffea liberica var. dewevrei</span>
+      <span class="coffee-info-item">Orijin: Orta Afrika</span>
+      <span class="coffee-info-item">Kafein: %1.0-1.5</span>
+      <span class="coffee-info-item">Dünya Üretimi: ~1-2%</span>
+    </div>
+    
+    <p class="lead">Excelsa, dünya kahve üretiminin çok küçük bir kısmını oluşturan, benzersiz tat profili ve karmaşık aromalarıyla bilinen nadir bir kahve türüdür. Bazı sınıflandırmalarda Liberica'nın bir alt türü olarak kabul edilirken, diğerlerinde ayrı bir tür olarak değerlendirilir.</p>
+    
+    <h3>Excelsa'nın Taksonomisi ve Tartışmalar</h3>
+    <p>Excelsa kahvesi, ilk olarak 1903 yılında Fransız botanikçi Auguste Chevalier tarafından Orta Afrika'da keşfedilmiş ve Coffea excelsa olarak adlandırılmıştır. Ancak, zaman içinde botanik sınıflandırması değişmiş ve günümüzde çoğu botanikçi tarafından Coffea liberica'nın bir varyetesi (Coffea liberica var. dewevrei) olarak kabul edilmektedir.</p>
+    
+    <p>Bununla birlikte, kahve endüstrisinde hala ayrı bir tür olarak anılmakta ve benzersiz özellikleri nedeniyle Liberica'dan ayrı değerlendirilmektedir. Bu durum, kahve dünyasında devam eden taksonomik tartışmaların bir örneğidir.</p>
+    
+    <h3>Excelsa'nın Özellikleri</h3>
+    <div class="coffee-card">
+      <h4>Botanik Özellikleri</h4>
+      <ul>
+        <li>Excelsa bitkisi, 6-9 metre boyunda, güçlü bir ağaçtır.</li>
+        <li>Yaprakları Arabica'dan büyük, ancak Liberica'dan daha küçüktür.</li>
+        <li>Çekirdekleri oval şekilli ve orta boyuttadır.</li>
+        <li>Meyveleri olgunlaştığında koyu kırmızı renk alır.</li>
+        <li>Orta ve alçak rakımlarda (400-1200 metre) yetişir.</li>
+        <li>Kuraklığa ve hastalıklara karşı oldukça dayanıklıdır.</li>
+        <li>Değişken iklim koşullarına iyi adapte olur.</li>
+      </ul>
+    </div>
+    
+    <h3>Tat Profili</h3>
+    <p>Excelsa kahvesi, benzersiz ve karmaşık bir tat profiline sahiptir:</p>
+    <ul>
+      <li>Hem hafif hem de koyu kavrulmuş kahvelerin özelliklerini aynı anda taşır.</li>
+      <li>Meyvemsi ve tatlı notalar (olgun meyve, kuru üzüm, çilek)</li>
+      <li>Hafif asitlik ve orta gövde</li>
+      <li>Baharatlı ve odunsu arka plan notaları</li>
+      <li>Bazı varyetelerde narenciye ve çiçeksi aromalar</li>
+      <li>Çikolata ve karamel tonları</li>
+      <li>Uzun ve karmaşık bir bitiş</li>
+    </ul>
+    
+    <p>Excelsa'nın en dikkat çekici özelliği, hem hafif hem de koyu kavrulmuş kahvelerin tat özelliklerini aynı anda sunabilmesidir. Bu durum, onu kahve harmanları için değerli bir bileşen haline getirir.</p>
+    
+    <h3>Yetiştirme Bölgeleri</h3>
+    <p>Excelsa kahvesi, dünya genelinde sınırlı bölgelerde yetiştirilmektedir:</p>
+    <ul>
+      <li><strong>Orta Afrika:</strong> Çad, Kongo Demokratik Cumhuriyeti, Uganda</li>
+      <li><strong>Batı Afrika:</strong> Fildişi Sahili, Gine, Liberya</li>
+      <li><strong>Güneydoğu Asya:</strong> Filipinler, Vietnam, Malezya</li>
+      <li><strong>Hindistan:</strong> Özellikle güney bölgelerde sınırlı miktarda</li>
+    </ul>
+    
+    <h3>Excelsa'nın Kahve Endüstrisindeki Rolü</h3>
+    <div class="coffee-card">
+      <p>Excelsa, kahve endüstrisinde çeşitli şekillerde kullanılmaktadır:</p>
+      <ul>
+        <li><strong>Kahve Harmanları:</strong> Benzersiz tat profili nedeniyle, karmaşık ve çok boyutlu harmanlar oluşturmak için %5-20 oranında kullanılır.</li>
+        <li><strong>Tek Çeşit (Single Origin):</strong> Nadir olarak, özel kahve pazarında tek çeşit olarak sunulur.</li>
+        <li><strong>Yerel Tüketim:</strong> Yetiştirildiği bölgelerde, geleneksel yöntemlerle hazırlanarak tüketilir.</li>
+        <li><strong>Genetik Çeşitlilik:</strong> Kahve ıslah programlarında, hastalıklara dayanıklılık ve iklim adaptasyonu için genetik kaynak olarak değerlidir.</li>
+      </ul>
+    </div>
+    
+    <h3>Excelsa'nın Hazırlanması</h3>
+    <p>Excelsa kahvesi, çeşitli demleme yöntemleriyle hazırlanabilir:</p>
+    <ul>
+      <li><strong>French Press:</strong> Excelsa'nın tam gövdesini ve karmaşık aromalarını ortaya çıkarmak için idealdir.</li>
+      <li><strong>Pour Over:</strong> Meyvemsi ve çiçeksi notaları vurgulamak için iyi bir seçimdir.</li>
+      <li><strong>Cold Brew:</strong> Tatlı ve meyvemsi notaları ön plana çıkarır, acılığı azaltır.</li>
+      <li><strong>Espresso Harmanları:</strong> Diğer kahve türleriyle karıştırılarak, karmaşık espresso harmanları oluşturulabilir.</li>
+    </ul>
+    
+    <h3>Excelsa'nın Sürdürülebilirliği ve Zorlukları</h3>
+    <p>Excelsa kahvesi, çeşitli zorluklarla karşı karşıyadır:</p>
+    <ul>
+      <li>Sınırlı üretim ve düşük pazar talebi</li>
+      <li>Yetiştirme ve işleme konusunda sınırlı bilgi ve deneyim</li>
+      <li>Standardizasyon eksikliği</li>
+      <li>Taksonomik belirsizlikler</li>
+      <li>Habitat kaybı ve genetik erozyon tehdidi</li>
+    </ul>
+    
+    <p>Bununla birlikte, iklim değişikliği ve kahve hastalıklarının artan tehdidi karşısında, Excelsa'nın dayanıklılığı ve adaptasyon yeteneği, onu gelecekteki kahve üretimi için potansiyel bir kaynak haline getirmektedir.</p>
+    
+    <h3>Excelsa'yı Deneyimlemek</h3>
+    <p>Eğer Excelsa kahvesi denemek isterseniz:</p>
+    <ul>
+      <li>Özel kahve dükkanları ve çevrimiçi satıcılar aracılığıyla temin edebilirsiniz.</li>
+      <li>Orta-koyu kavrum seviyesi, Excelsa'nın karmaşık aromalarını dengelemek için idealdir.</li>
+      <li>Tek başına deneyimleyebileceğiniz gibi, Arabica veya Robusta ile karıştırarak kendi harmanınızı da oluşturabilirsiniz.</li>
+      <li>Açık fikirli olun - Excelsa'nın benzersiz tat profili, alışılmış kahve deneyimlerinden oldukça farklıdır.</li>
+    </ul>
+    
+    <div class="navigation-links">
+      <a href="/sayfa13">Sonraki: Latte Art →</a>
+      <a href="/sayfa11">← Önceki: Liberica</a>
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  .coffee-article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+</style>

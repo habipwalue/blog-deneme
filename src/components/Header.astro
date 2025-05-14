@@ -2,15 +2,44 @@
 // src/components/Header.astro
 ---
 <header>
-    <h1>Basit Blog Sitesi</h1>
+    <div class="header-container">
+        <h1>Kahve Dünyası</h1>
+        <p class="tagline">Kahve Yapım Teknikleri ve Lezzet Yolculuğu</p>
+    </div>
     <nav>
       <ul>
         <li><a href="/">Ana Sayfa</a></li>
         <li><a href="/hakkinda">Hakkında</a></li>
-        <li><a href="/sayfa1">Sayfa 1</a></li>
-        <li><a href="/sayfa5">Sayfa 5</a></li>
-        <li><a href="/sayfa10">Sayfa 10</a></li>
-         <li><a href="/sayfa15">Sayfa 15</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Kahve Teknikleri</a>
+          <div class="dropdown-content">
+            <a href="/sayfa1">Espresso</a>
+            <a href="/sayfa2">French Press</a>
+            <a href="/sayfa3">Pour Over</a>
+            <a href="/sayfa4">Chemex</a>
+            <a href="/sayfa5">AeroPress</a>
+            <a href="/sayfa6">Moka Pot</a>
+            <a href="/sayfa7">Cold Brew</a>
+            <a href="/sayfa8">Türk Kahvesi</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Kahve Çeşitleri</a>
+          <div class="dropdown-content">
+            <a href="/sayfa9">Arabica</a>
+            <a href="/sayfa10">Robusta</a>
+            <a href="/sayfa11">Liberica</a>
+            <a href="/sayfa12">Excelsa</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Özel Tarifler</a>
+          <div class="dropdown-content">
+            <a href="/sayfa13">Latte Art</a>
+            <a href="/sayfa14">Aromatik Kahveler</a>
+            <a href="/sayfa15">Soğuk Kahve Tarifleri</a>
+          </div>
+        </li>
       </ul>
     </nav>
   </header>

@@ -1,26 +1,128 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Sayfa 10";
+const pageTitle = "Robusta - Kahve Çeşitleri";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Sayfa 10 Başlığı</h2>
-  <p>Bu sayfa 10'un içeriğidir. Consectetur adipiscing elit...</p>
-  <p>Diğer sayfalara linkler:</p>
-  <ul>
-    <li><a href="/sayfa1">Sayfa 1'e git</a></li>
-    <li><a href="/sayfa2">Sayfa 2'ye git</a></li>
-    <li><a href="/sayfa3">Sayfa 3'e git</a></li>
-    <li><a href="/sayfa4">Sayfa 4'e git</a></li>
-    <li><a href="/sayfa5">Sayfa 5'e git</a></li>
-    <li><a href="/sayfa6">Sayfa 6'ya git</a></li>
-    <li><a href="/sayfa7">Sayfa 7'ye git</a></li>
-    <li><a href="/sayfa8">Sayfa 8'e git</a></li>
-    <li><a href="/sayfa9">Sayfa 9'a git</a></li>
-    <li><a href="/sayfa11">Sayfa 11'e git</a></li>
-    <li><a href="/sayfa12">Sayfa 12'ye git</a></li>
-    <li><a href="/sayfa13">Sayfa 13'e git</a></li>
-    <li><a href="/sayfa14">Sayfa 14'e git</a></li>
-    <li><a href="/sayfa15">Sayfa 15'e git</a></li>
-    <li><a href="/">Ana Sayfa'ya dön</a></li>
-  </ul>
+  <article class="coffee-article">
+    <h2>Robusta Kahve</h2>
+    
+    <img src="https://images.unsplash.com/photo-1559525839-d11829f7b96f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Robusta Kahve Çekirdekleri" class="coffee-image">
+    
+    <div class="coffee-info">
+      <span class="coffee-info-item">Tür: Coffea canephora</span>
+      <span class="coffee-info-item">Orijin: Batı ve Orta Afrika</span>
+      <span class="coffee-info-item">Kafein: %1.7-4.0</span>
+      <span class="coffee-info-item">Dünya Üretimi: ~40%</span>
+    </div>
+    
+    <p class="lead">Robusta (Coffea canephora), dünya kahve üretiminin yaklaşık %40'ını oluşturan, yüksek kafein içeriği ve güçlü, yoğun tadıyla bilinen kahve çeşididir. Espresso harmanlarında ve instant kahvelerde yaygın olarak kullanılır.</p>
+    
+    <h3>Robusta'nın Tarihi ve Kökeni</h3>
+    <p>Robusta kahvesi, adını dayanıklılığından (robust) alan bir türdür ve doğal olarak Batı ve Orta Afrika'nın alçak bölgelerinde yetişir. 19. yüzyılın sonlarında keşfedilmiş ve 20. yüzyılın başlarında ticari olarak yetiştirilmeye başlanmıştır.</p>
+    
+    <p>Robusta, özellikle 1860'larda Asya'daki kahve yapraklarını etkileyen pas hastalığı (coffee leaf rust) salgını sonrasında, hastalıklara karşı daha dayanıklı bir alternatif olarak popülerlik kazanmıştır. Bugün, Vietnam, Brezilya, Endonezya, Uganda ve Hindistan gibi ülkelerde yaygın olarak yetiştirilmektedir.</p>
+    
+    <h3>Robusta'nın Özellikleri</h3>
+    <div class="coffee-card">
+      <h4>Botanik Özellikleri</h4>
+      <ul>
+        <li>Robusta bitkisi, 4-6 metre boyunda, güçlü bir ağaçtır.</li>
+        <li>Büyük, geniş yapraklara sahiptir.</li>
+        <li>Çiçekleri beyazdır ve düzensiz açar.</li>
+        <li>Meyveleri (kahve kirazları) olgunlaştığında kırmızı renk alır.</li>
+        <li>Her meyve genellikle iki adet yuvarlak kahve çekirdeği içerir.</li>
+        <li>Alçak rakımlarda (0-800 metre) yetişir.</li>
+        <li>Arabica'ya göre daha dayanıklıdır ve hastalıklara karşı dirençlidir.</li>
+        <li>Daha yüksek verim sağlar ve daha az bakım gerektirir.</li>
+      </ul>
+    </div>
+    
+    <h3>Tat Profili</h3>
+    <p>Robusta kahvesi, genellikle şu tat özellikleriyle tanımlanır:</p>
+    <ul>
+      <li>Güçlü ve yoğun bir içim</li>
+      <li>Belirgin acılık</li>
+      <li>Düşük asitlik</li>
+      <li>Toprak, odun, yanık ve bazen kauçuk notaları</li>
+      <li>Yüksek kafein içeriği (%1.7-4.0)</li>
+      <li>Daha düşük şeker içeriği</li>
+      <li>Kalın ve kremsi bir gövde</li>
+    </ul>
+    
+    <h3>Robusta'nın Kullanım Alanları</h3>
+    <p>Robusta kahvesi, birçok farklı alanda kullanılır:</p>
+    <ul>
+      <li><strong>Espresso Harmanları:</strong> Güçlü tadı ve kalın kreması nedeniyle, özellikle İtalyan tarzı espresso harmanlarında %10-30 oranında kullanılır.</li>
+      <li><strong>Instant Kahve:</strong> Dünya instant kahve üretiminin büyük bir kısmı Robusta'dan yapılır.</li>
+      <li><strong>Kahve Karışımları:</strong> Arabica ile karıştırılarak, daha ekonomik ve daha güçlü kahve karışımları oluşturulur.</li>
+      <li><strong>Tek Çeşit (Single Origin):</strong> Son yıllarda, yüksek kaliteli Robusta çekirdekleri, tek çeşit kahve olarak da sunulmaya başlanmıştır.</li>
+    </ul>
+    
+    <h3>Kaliteli Robusta Özellikleri</h3>
+    <div class="coffee-card">
+      <p>Tüm Robusta kahveleri aynı değildir. Yüksek kaliteli bir Robusta şu özelliklere sahip olmalıdır:</p>
+      <ul>
+        <li>Temiz ve kusursuz çekirdekler</li>
+        <li>Dengeli bir tat profili</li>
+        <li>Aşırı acılık veya yanık tat olmaması</li>
+        <li>Çikolata, fındık veya baharatlı notalar</li>
+        <li>Kalın ve kremsi bir gövde</li>
+        <li>Uzun bir bitişe sahip olması</li>
+      </ul>
+    </div>
+    
+    <h3>Yetiştirme Bölgeleri ve Karakteristik Tatlar</h3>
+    <p>Önemli Robusta yetiştirme bölgeleri ve karakteristik tatları:</p>
+    <ul>
+      <li><strong>Vietnam:</strong> Dünyanın en büyük Robusta üreticisi, çikolata ve fındık notaları</li>
+      <li><strong>Brezilya:</strong> Yumuşak, dengeli, düşük acılık</li>
+      <li><strong>Endonezya:</strong> Toprak, odun ve baharatlı notalar</li>
+      <li><strong>Uganda:</strong> Meyvemsi notalar, orta gövdeli</li>
+      <li><strong>Hindistan:</strong> Baharatlı, karamel notaları</li>
+    </ul>
+    
+    <h3>Robusta'nın Sürdürülebilirliği</h3>
+    <p>Robusta kahvesi, sürdürülebilirlik açısından bazı avantajlara sahiptir:</p>
+    <ul>
+      <li>İklim değişikliğine karşı daha dayanıklıdır.</li>
+      <li>Hastalıklara ve zararlılara karşı daha dirençlidir.</li>
+      <li>Daha az su ve bakım gerektirir.</li>
+      <li>Daha yüksek verim sağlar.</li>
+      <li>Daha düşük rakımlarda yetiştirilebilir.</li>
+    </ul>
+    
+    <p>Bu özellikler, iklim değişikliğinin kahve endüstrisini tehdit ettiği günümüzde, Robusta'yı giderek daha önemli bir kahve türü haline getirmektedir.</p>
+    
+    <h3>Robusta'nın Geleceği</h3>
+    <p>Uzun yıllar boyunca "düşük kaliteli" olarak görülen Robusta, son yıllarda özel kahve (specialty coffee) dünyasında da ilgi görmeye başlamıştır. Özellikle Uganda, Hindistan ve Brezilya'dan gelen yüksek kaliteli Robusta çekirdekleri, kahve tutkunları tarafından keşfedilmektedir.</p>
+    
+    <p>Ayrıca, iklim değişikliği nedeniyle Arabica yetiştiriciliğinin zorlaştığı bir dönemde, Robusta'nın dayanıklılığı ve adaptasyon yeteneği, onu kahve endüstrisinin geleceği için önemli bir tür haline getirmektedir.</p>
+    
+    <div class="navigation-links">
+      <a href="/sayfa11">Sonraki: Liberica →</a>
+      <a href="/sayfa9">← Önceki: Arabica</a>
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  .coffee-article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+</style>

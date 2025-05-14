@@ -1,26 +1,106 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Sayfa 5";
+const pageTitle = "AeroPress - Kahve Yapım Teknikleri";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Sayfa 5 Başlığı</h2>
-  <p>Bu sayfa 5'in içeriğidir. Consectetur adipiscing elit...</p>
-  <p>Diğer sayfalara linkler:</p>
-  <ul>
-    <li><a href="/sayfa1">Sayfa 1'e git</a></li>
-    <li><a href="/sayfa2">Sayfa 2'ye git</a></li>
-    <li><a href="/sayfa3">Sayfa 3'e git</a></li>
-    <li><a href="/sayfa4">Sayfa 4'e git</a></li>
-    <li><a href="/sayfa6">Sayfa 6'ya git</a></li>
-    <li><a href="/sayfa7">Sayfa 7'ye git</a></li>
-    <li><a href="/sayfa8">Sayfa 8'e git</a></li>
-    <li><a href="/sayfa9">Sayfa 9'a git</a></li>
-    <li><a href="/sayfa10">Sayfa 10'a git</a></li>
-    <li><a href="/sayfa11">Sayfa 11'e git</a></li>
-    <li><a href="/sayfa12">Sayfa 12'ye git</a></li>
-    <li><a href="/sayfa13">Sayfa 13'e git</a></li>
-    <li><a href="/sayfa14">Sayfa 14'e git</a></li>
-    <li><a href="/sayfa15">Sayfa 15'e git</a></li>
-    <li><a href="/">Ana Sayfa'ya dön</a></li>
-  </ul>
+  <article class="coffee-article">
+    <h2>AeroPress</h2>
+    
+    <img src="https://images.unsplash.com/photo-1612097457920-310ba373a331?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="AeroPress" class="coffee-image">
+    
+    <div class="coffee-info">
+      <span class="coffee-info-item">Zorluk: Kolay</span>
+      <span class="coffee-info-item">Süre: 1-2 dk</span>
+      <span class="coffee-info-item">Yoğunluk: Ayarlanabilir</span>
+      <span class="coffee-info-item">Ekipman: AeroPress</span>
+    </div>
+    
+    <p class="lead">AeroPress, 2005 yılında Aerobie firmasının kurucusu Alan Adler tarafından icat edilen, basınç kullanarak hızlı ve temiz bir kahve demlemesi sağlayan yenilikçi bir kahve demleme cihazıdır.</p>
+    
+    <h3>AeroPress'in Özellikleri</h3>
+    <p>AeroPress, espresso ve filtre kahve arasında bir yerde duran, hızlı, temiz ve tutarlı bir kahve demleme yöntemidir. Hafif basınç kullanarak kahveyi demler, bu da acılığı azaltırken, kahvenin tatlılığını ve kompleks aromalarını ortaya çıkarır. Taşınabilir, dayanıklı ve temizlemesi kolay olması nedeniyle seyahat edenler ve kamp yapanlar için idealdir.</p>
+    
+    <h3>Gerekli Ekipmanlar</h3>
+    <ul>
+      <li>AeroPress cihazı (piston, hazne ve filtre kapağı)</li>
+      <li>AeroPress kağıt filtreleri</li>
+      <li>Kahve değirmeni</li>
+      <li>Su ısıtıcısı</li>
+      <li>Karıştırıcı (AeroPress ile birlikte gelir)</li>
+      <li>Hassas tartı (tercihen)</li>
+      <li>Fincan veya sürahi</li>
+    </ul>
+    
+    <h3>Malzemeler</h3>
+    <ul>
+      <li>17 gram orta-ince çekilmiş kahve</li>
+      <li>220 ml su (80-85°C)</li>
+    </ul>
+    
+    <h3>Standart (Düz) Yöntem Hazırlama Adımları</h3>
+    <ol class="recipe-steps">
+      <li>AeroPress'i hazırlayın: Filtre kapağına bir kağıt filtre yerleştirin, sıcak su ile ıslatın ve kapağı haznenin altına takın.</li>
+      <li>AeroPress'i fincan veya sürahi üzerine yerleştirin.</li>
+      <li>Öğütülmüş kahveyi hazneye ekleyin.</li>
+      <li>80-85°C sıcaklığındaki suyu hazneye ekleyin.</li>
+      <li>Karıştırıcı ile 10 saniye boyunca karıştırın.</li>
+      <li>Pistonu hazneye yerleştirin ve yavaşça aşağı doğru bastırın (yaklaşık 20-30 saniye sürmeli).</li>
+      <li>Basınç uygulamayı durdurun ve pistonu hafifçe geri çekin (bu, filtreye yapışmasını önler).</li>
+      <li>AeroPress'i kaldırın ve atık kahve posasını çöpe atın.</li>
+      <li>Kahvenizi servis edin.</li>
+    </ol>
+    
+    <h3>Ters (Inverted) Yöntem</h3>
+    <p>Birçok kahve tutkunu, daha fazla kontrol sağladığı için "ters" yöntemi tercih eder:</p>
+    <ol class="recipe-steps">
+      <li>Pistonu hazneye kısmen yerleştirin ve AeroPress'i ters çevirin (piston aşağıda, açık uç yukarıda).</li>
+      <li>Öğütülmüş kahveyi hazneye ekleyin.</li>
+      <li>Sıcak suyu ekleyin ve karıştırın.</li>
+      <li>1-2 dakika demlenmeye bırakın.</li>
+      <li>Filtre kapağını hazırlayın ve haznenin üstüne takın.</li>
+      <li>AeroPress'i hızlıca ters çevirin ve fincan üzerine yerleştirin.</li>
+      <li>Pistonu aşağı doğru bastırın.</li>
+    </ol>
+    
+    <h3>İpuçları</h3>
+    <div class="coffee-card">
+      <ul>
+        <li>Su sıcaklığı: Standart yöntem için 80-85°C, ters yöntem için 90-95°C idealdir.</li>
+        <li>Öğütüm inceliği: Daha uzun demleme süresi için daha kaba, daha kısa demleme süresi için daha ince öğütün.</li>
+        <li>Metal filtreler: Kağıt filtreler yerine yeniden kullanılabilir metal filtreler kullanarak daha fazla kahve yağı ve gövde elde edebilirsiniz.</li>
+        <li>Demleme süresi: Standart yöntemde 1-1.5 dakika, ters yöntemde 1-2 dakika idealdir.</li>
+        <li>Basınç: Pistonu bastırırken sabit ve yavaş bir basınç uygulayın, bu 20-30 saniye sürmelidir.</li>
+      </ul>
+    </div>
+    
+    <h3>AeroPress için Uygun Kahve Çeşitleri</h3>
+    <p>AeroPress'in çok yönlülüğü, hemen hemen her tür kahve çekirdeği ile iyi sonuç verir. Açık ve orta kavrulmuş, asitliği yüksek kahveler için standart yöntemi, koyu kavrulmuş, çikolata ve fındık notaları olan kahveler için ters yöntemi deneyebilirsiniz. Etiyopya, Kenya, Kolombiya ve Guatemala kahveleri AeroPress ile harika sonuçlar verir.</p>
+    
+    <div class="navigation-links">
+      <a href="/sayfa6">Sonraki: Moka Pot →</a>
+      <a href="/sayfa4">← Önceki: Chemex</a>
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  .coffee-article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+</style>

@@ -1,26 +1,101 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Sayfa 7";
+const pageTitle = "Cold Brew - Kahve Yapım Teknikleri";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Sayfa 7 Başlığı</h2>
-  <p>Bu sayfa 7'nin içeriğidir. Consectetur adipiscing elit...</p>
-  <p>Diğer sayfalara linkler:</p>
-  <ul>
-    <li><a href="/sayfa1">Sayfa 1'e git</a></li>
-    <li><a href="/sayfa2">Sayfa 2'ye git</a></li>
-    <li><a href="/sayfa3">Sayfa 3'e git</a></li>
-    <li><a href="/sayfa4">Sayfa 4'e git</a></li>
-    <li><a href="/sayfa5">Sayfa 5'e git</a></li>
-    <li><a href="/sayfa6">Sayfa 6'ya git</a></li>
-    <li><a href="/sayfa8">Sayfa 8'e git</a></li>
-    <li><a href="/sayfa9">Sayfa 9'a git</a></li>
-    <li><a href="/sayfa10">Sayfa 10'a git</a></li>
-    <li><a href="/sayfa11">Sayfa 11'e git</a></li>
-    <li><a href="/sayfa12">Sayfa 12'ye git</a></li>
-    <li><a href="/sayfa13">Sayfa 13'e git</a></li>
-    <li><a href="/sayfa14">Sayfa 14'e git</a></li>
-    <li><a href="/sayfa15">Sayfa 15'e git</a></li>
-    <li><a href="/">Ana Sayfa'ya dön</a></li>
-  </ul>
+  <article class="coffee-article">
+    <h2>Cold Brew (Soğuk Demleme)</h2>
+    
+    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Cold Brew" class="coffee-image">
+    
+    <div class="coffee-info">
+      <span class="coffee-info-item">Zorluk: Kolay</span>
+      <span class="coffee-info-item">Süre: 12-24 saat</span>
+      <span class="coffee-info-item">Yoğunluk: Düşük-Orta</span>
+      <span class="coffee-info-item">Ekipman: Kavanoz veya Cold Brew Demleme Cihazı</span>
+    </div>
+    
+    <p class="lead">Cold Brew (Soğuk Demleme), öğütülmüş kahvenin soğuk veya oda sıcaklığındaki su ile uzun süre (genellikle 12-24 saat) demlenmesiyle hazırlanan, düşük asitli ve yumuşak içimli bir kahve demleme yöntemidir.</p>
+    
+    <h3>Cold Brew'un Özellikleri</h3>
+    <p>Cold Brew, sıcak demleme yöntemlerinden farklı olarak, kahvenin asitliğini ve acılığını önemli ölçüde azaltır. Sonuç olarak, daha tatlı, yumuşak ve pürüzsüz bir içim sunar. Ayrıca, soğuk demlendiği için, kahvenin farklı aromalarını ve tatlarını ortaya çıkarır. Cold Brew konsantre olarak hazırlanır ve genellikle su, süt veya buz ile seyreltilerek tüketilir.</p>
+    
+    <h3>Gerekli Ekipmanlar</h3>
+    <ul>
+      <li>Büyük bir kavanoz veya Cold Brew demleme cihazı</li>
+      <li>Kahve değirmeni</li>
+      <li>İnce gözenekli süzgeç veya filtre kağıdı</li>
+      <li>Karıştırıcı</li>
+      <li>Saklama kabı</li>
+    </ul>
+    
+    <h3>Malzemeler</h3>
+    <ul>
+      <li>100 gram kaba çekilmiş kahve</li>
+      <li>1 litre soğuk veya oda sıcaklığında su</li>
+    </ul>
+    
+    <h3>Hazırlama Adımları</h3>
+    <ol class="recipe-steps">
+      <li>Kahve çekirdeklerini kaba bir şekilde öğütün (French Press için kullanılan öğütüm inceliğinden biraz daha kaba).</li>
+      <li>Öğütülmüş kahveyi büyük bir kavanoza veya Cold Brew demleme cihazına ekleyin.</li>
+      <li>Soğuk veya oda sıcaklığındaki suyu yavaşça kahvenin üzerine dökün.</li>
+      <li>Karıştırıcı ile nazikçe karıştırarak tüm kahvenin ıslanmasını sağlayın.</li>
+      <li>Kabın kapağını kapatın ve oda sıcaklığında veya buzdolabında 12-24 saat bekletin.</li>
+      <li>Demleme süresi tamamlandığında, kahveyi ince gözenekli süzgeç veya filtre kağıdı kullanarak süzün.</li>
+      <li>Süzülmüş Cold Brew konsantresini temiz bir şişeye veya kavanoza aktarın.</li>
+      <li>Buzdolabında saklayın (7-10 gün taze kalır).</li>
+      <li>Servis ederken, 1 kısım Cold Brew konsantresini 1-2 kısım su, süt veya buz ile karıştırın.</li>
+    </ol>
+    
+    <h3>İpuçları</h3>
+    <div class="coffee-card">
+      <ul>
+        <li>Kahve-su oranı: Standart oran 1:10 (100 gram kahve için 1 litre su), daha yoğun bir konsantre için 1:8, daha hafif bir içim için 1:12 oranını deneyebilirsiniz.</li>
+        <li>Demleme süresi: 12 saat daha hafif bir içim, 24 saat daha yoğun bir içim sağlar.</li>
+        <li>Demleme sıcaklığı: Oda sıcaklığında demleme daha hızlı ekstraksiyon sağlar, buzdolabında demleme ise daha yavaş ama daha temiz bir tat profili sunar.</li>
+        <li>Çift filtreleme: Daha berrak bir içim için, Cold Brew'u iki kez filtreleyebilirsiniz.</li>
+        <li>Tatlandırma: Cold Brew'a vanilya, tarçın veya kakao ekleyerek farklı aromalar katabilirsiniz.</li>
+      </ul>
+    </div>
+    
+    <h3>Cold Brew için Uygun Kahve Çeşitleri</h3>
+    <p>Cold Brew için orta veya koyu kavrulmuş, çikolata, fındık ve karamel notaları olan kahveler idealdir. Özellikle Brezilya, Kolombiya, Guatemala, Honduras ve Etiyopya kahveleri Cold Brew için harika sonuçlar verir. Tek çeşit kahve kullanabileceğiniz gibi, farklı kahveleri karıştırarak kendi Cold Brew harmanınızı da oluşturabilirsiniz.</p>
+    
+    <h3>Cold Brew Varyasyonları</h3>
+    <p>Cold Brew'un popüler varyasyonları şunlardır:</p>
+    <ul>
+      <li><strong>Nitro Cold Brew:</strong> Cold Brew'a azot gazı eklenerek hazırlanan, kremsi ve kadifemsi bir içim sunan kahve.</li>
+      <li><strong>Cold Brew Tonic:</strong> Cold Brew ve tonik suyun karışımı, ferahlatıcı bir yaz içeceği.</li>
+      <li><strong>Cold Brew Latte:</strong> Cold Brew konsantresi ve soğuk süt karışımı.</li>
+      <li><strong>Cold Brew Kokteylleri:</strong> Cold Brew'un alkollü içeceklerle karıştırılmasıyla hazırlanan kokteyller.</li>
+    </ul>
+    
+    <div class="navigation-links">
+      <a href="/sayfa8">Sonraki: Türk Kahvesi →</a>
+      <a href="/sayfa6">← Önceki: Moka Pot</a>
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  .coffee-article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+</style>

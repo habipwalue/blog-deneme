@@ -1,11 +1,42 @@
 ---
 // src/pages/hakkinda.astro
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Hakkında";
+const pageTitle = "Kahve Dünyası - Hakkımızda";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Hakkımızda</h2>
-  <p>Bu sayfa, test sitesinin hakkında bölümüdür.</p>
-  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <h2>Kahve Dünyası Hakkında</h2>
+  
+  <div class="about-section">
+    <img src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Kahve Hazırlama" class="coffee-image">
+    
+    <p class="lead">Kahve Dünyası, kahve tutkunları için en iyi yapım tekniklerini ve lezzet sırlarını paylaşan bir platformdur.</p>
+    
+    <h3>Misyonumuz</h3>
+    <p>Kahve kültürünü yaygınlaştırmak, farklı demleme yöntemlerini tanıtmak ve herkesin evinde profesyonel kalitede kahve hazırlayabilmesini sağlamak için bilgi ve deneyim paylaşımı yapmak.</p>
+    
+    <h3>Vizyonumuz</h3>
+    <p>Kahve dünyasındaki yenilikleri takip ederek, geleneksel ve modern demleme tekniklerini bir araya getiren, kahve severlere ilham veren bir kaynak olmak.</p>
+    
+    <h3>Neden Kahve?</h3>
+    <p>Kahve sadece bir içecek değil, bir kültür, bir ritüel ve bir sanattır. Doğru tekniklerle hazırlandığında, kahve çekirdeklerinin içindeki yüzlerce aroma ve tat ortaya çıkar. Her fincan kahve, yetiştiği bölgenin, iklimin ve toprağın hikayesini anlatır.</p>
+    
+    <p>Bu blogda, kahve çeşitlerinden demleme tekniklerine, ekipman seçiminden özel tariflere kadar kahve dünyasının tüm yönlerini keşfedeceksiniz.</p>
+    
+    <h3>Bizimle İletişime Geçin</h3>
+    <p>Sorularınız, önerileriniz veya işbirliği talepleriniz için <a href="mailto:info@kahvedunyasi.com">info@kahvedunyasi.com</a> adresinden bize ulaşabilirsiniz.</p>
+  </div>
 </BaseLayout>
+
+<style>
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+</style>

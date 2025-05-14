@@ -1,14 +1,92 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Sayfa 2";
+const pageTitle = "French Press - Kahve Yapım Teknikleri";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Sayfa 2 Başlığı</h2>
-  <p>Bu sayfa 2'nin içeriğidir. Consectetur adipiscing elit...</p>
-    <p>Diğer sayfalara linkler:</p>
-  <ul>
-    <li><a href="/sayfa1">Sayfa 1'e git</a></li>
-    <li><a href="/sayfa10">Sayfa 10'a git</a></li>
-    <li><a href="/">Ana Sayfa'ya dön</a></li>
-  </ul>
+  <article class="coffee-article">
+    <h2>French Press</h2>
+    
+    <img src="https://images.unsplash.com/photo-1544453850-c22e3a48a041?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="French Press" class="coffee-image">
+    
+    <div class="coffee-info">
+      <span class="coffee-info-item">Zorluk: Kolay</span>
+      <span class="coffee-info-item">Süre: 4-5 dk</span>
+      <span class="coffee-info-item">Yoğunluk: Orta-Yüksek</span>
+      <span class="coffee-info-item">Ekipman: French Press</span>
+    </div>
+    
+    <p class="lead">French Press (Fransız Presi), cam veya metal bir haznede kaba öğütülmüş kahvenin sıcak su ile demlendikten sonra metal bir filtre yardımıyla sıkıştırılarak servis edildiği klasik bir demleme yöntemidir.</p>
+    
+    <h3>French Press'in Özellikleri</h3>
+    <p>French Press ile hazırlanan kahve, kahve yağlarını ve çözünür bileşenleri içerdiği için dolu gövdeli ve zengin bir tada sahiptir. Kağıt filtre kullanılmadığı için kahvenin doğal yağları ve ince parçacıkları fincana geçer, bu da daha yoğun bir aroma ve hafif bulanık bir görünüm sağlar.</p>
+    
+    <h3>Gerekli Ekipmanlar</h3>
+    <ul>
+      <li>French Press (350-500 ml kapasiteli)</li>
+      <li>Kahve değirmeni</li>
+      <li>Su ısıtıcısı</li>
+      <li>Hassas tartı (tercihen)</li>
+      <li>Zamanlayıcı</li>
+    </ul>
+    
+    <h3>Malzemeler</h3>
+    <ul>
+      <li>30 gram kaba çekilmiş kahve (yaklaşık 4 yemek kaşığı)</li>
+      <li>500 ml (yaklaşık 2 su bardağı) su (90-96°C)</li>
+    </ul>
+    
+    <h3>Hazırlama Adımları</h3>
+    <ol class="recipe-steps">
+      <li>Kahve çekirdeklerini kaba bir şekilde öğütün (deniz tuzu kıvamında).</li>
+      <li>French Press'i ısıtmak için içine sıcak su doldurun ve birkaç saniye bekledikten sonra suyu dökün.</li>
+      <li>Öğütülmüş kahveyi French Press'e ekleyin.</li>
+      <li>90-96°C sıcaklığındaki suyu kahvenin üzerine dökün ve zamanlayıcıyı başlatın.</li>
+      <li>30 saniye sonra, kahvenin üst kısmında oluşan "bloom" tabakasını tahta bir kaşık veya çubukla nazikçe karıştırın.</li>
+      <li>French Press'in kapağını kapatın ancak pistonu aşağı bastırmayın.</li>
+      <li>4 dakika boyunca demlenmeye bırakın.</li>
+      <li>Süre dolduğunda, pistonu yavaşça ve sabit bir şekilde aşağı doğru bastırın.</li>
+      <li>Hemen servis edin (French Press içinde bekletmek kahvenin acılaşmasına neden olabilir).</li>
+    </ol>
+    
+    <h3>İpuçları</h3>
+    <div class="coffee-card">
+      <ul>
+        <li>İdeal kahve-su oranı 1:15 ile 1:17 arasındadır (30 gram kahve için 450-510 ml su).</li>
+        <li>Kahve çok acı geliyorsa, daha kaba öğütün veya demleme süresini kısaltın.</li>
+        <li>Kahve çok sulu geliyorsa, daha ince öğütün veya demleme süresini uzatın.</li>
+        <li>French Press'te kalan kahveyi hemen boşaltın, aksi takdirde demleme devam eder ve kahve acılaşır.</li>
+        <li>Fincanınızın dibinde tortu istemiyorsanız, son 30 ml'yi dökmeyin.</li>
+      </ul>
+    </div>
+    
+    <h3>French Press için Uygun Kahve Çeşitleri</h3>
+    <p>French Press için orta veya koyu kavrulmuş kahveler genellikle daha iyi sonuç verir. Özellikle çikolata, fındık ve karamel notaları olan kahveler bu demleme yöntemiyle güzel bir şekilde ortaya çıkar. Brezilya, Kolombiya, Guatemala ve Endonezya kahveleri French Press için harika seçeneklerdir.</p>
+    
+    <div class="navigation-links">
+      <a href="/sayfa3">Sonraki: Pour Over →</a>
+      <a href="/sayfa1">← Önceki: Espresso</a>
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  .coffee-article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+</style>

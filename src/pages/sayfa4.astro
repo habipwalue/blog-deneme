@@ -1,26 +1,94 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Sayfa 4";
+const pageTitle = "Chemex - Kahve Yapım Teknikleri";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Sayfa 4 Başlığı</h2>
-  <p>Bu sayfa 4'ün içeriğidir. Consectetur adipiscing elit...</p>
-  <p>Diğer sayfalara linkler:</p>
-  <ul>
-    <li><a href="/sayfa1">Sayfa 1'e git</a></li>
-    <li><a href="/sayfa2">Sayfa 2'ye git</a></li>
-    <li><a href="/sayfa3">Sayfa 3'e git</a></li>
-    <li><a href="/sayfa5">Sayfa 5'e git</a></li>
-    <li><a href="/sayfa6">Sayfa 6'ya git</a></li>
-    <li><a href="/sayfa7">Sayfa 7'ye git</a></li>
-    <li><a href="/sayfa8">Sayfa 8'e git</a></li>
-    <li><a href="/sayfa9">Sayfa 9'a git</a></li>
-    <li><a href="/sayfa10">Sayfa 10'a git</a></li>
-    <li><a href="/sayfa11">Sayfa 11'e git</a></li>
-    <li><a href="/sayfa12">Sayfa 12'ye git</a></li>
-    <li><a href="/sayfa13">Sayfa 13'e git</a></li>
-    <li><a href="/sayfa14">Sayfa 14'e git</a></li>
-    <li><a href="/sayfa15">Sayfa 15'e git</a></li>
-    <li><a href="/">Ana Sayfa'ya dön</a></li>
-  </ul>
+  <article class="coffee-article">
+    <h2>Chemex</h2>
+    
+    <img src="https://images.unsplash.com/photo-1519082274554-1ca35c372625?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Chemex" class="coffee-image">
+    
+    <div class="coffee-info">
+      <span class="coffee-info-item">Zorluk: Orta</span>
+      <span class="coffee-info-item">Süre: 4-5 dk</span>
+      <span class="coffee-info-item">Yoğunluk: Hafif-Orta</span>
+      <span class="coffee-info-item">Ekipman: Chemex, Özel Filtre</span>
+    </div>
+    
+    <p class="lead">Chemex, 1941 yılında Alman kimyager Dr. Peter Schlumbohm tarafından tasarlanan, kum saati şeklindeki zarif cam demleme cihazıdır. Özel kalın filtreleri sayesinde berrak, temiz ve hafif gövdeli kahve sunar.</p>
+    
+    <h3>Chemex'in Özellikleri</h3>
+    <p>Chemex, kalın özel filtreleri sayesinde kahve yağlarını ve ince partikülleri etkili bir şekilde filtreler, bu da çay benzeri bir berraklık ve temizlik sağlar. Sonuç olarak, kahvenin asitliği ve incelikleri ön plana çıkar, acılık ve bulanıklık azalır. Chemex, kahvenin doğal tatlarını ve aromalarını vurgulamak için idealdir.</p>
+    
+    <h3>Gerekli Ekipmanlar</h3>
+    <ul>
+      <li>Chemex kahve demleme cihazı</li>
+      <li>Chemex özel kağıt filtreleri</li>
+      <li>Kahve değirmeni</li>
+      <li>Gooseneck (ince ağızlı) su ısıtıcısı</li>
+      <li>Hassas tartı</li>
+      <li>Zamanlayıcı</li>
+    </ul>
+    
+    <h3>Malzemeler</h3>
+    <ul>
+      <li>42 gram orta-kaba çekilmiş kahve</li>
+      <li>700 ml su (93-96°C)</li>
+    </ul>
+    
+    <h3>Hazırlama Adımları</h3>
+    <ol class="recipe-steps">
+      <li>Chemex filtresini açın (üç katlı taraf Chemex'in ağzındaki oluk tarafına gelecek şekilde) ve Chemex'e yerleştirin.</li>
+      <li>Filtreyi sıcak su ile ıslatın. Bu, kağıt tadını giderir ve Chemex'i ısıtır.</li>
+      <li>Islatma suyunu dökün.</li>
+      <li>Öğütülmüş kahveyi filtreye ekleyin ve yüzeyi düzleştirin.</li>
+      <li>Zamanlayıcıyı başlatın ve kahvenin ortasına doğru 100 ml su ekleyerek "bloom" (çiçeklenme) aşamasını başlatın.</li>
+      <li>45 saniye bekleyin ve kahvenin gazını salmasını izleyin.</li>
+      <li>Dairesel hareketlerle, merkezden dışa doğru, 200 ml daha su ekleyin.</li>
+      <li>Su seviyesi düştükçe, 200 ml'lik iki doz daha ekleyin, her seferinde suyun biraz düşmesini bekleyin.</li>
+      <li>Toplam demleme süresi 4 ile 5 dakika arasında olmalıdır.</li>
+      <li>Filtre tamamen süzüldüğünde, filtreyi çıkarın ve kahvenizi servis edin.</li>
+    </ol>
+    
+    <h3>İpuçları</h3>
+    <div class="coffee-card">
+      <ul>
+        <li>Chemex filtreleri normal filtrelerden daha kalındır, bu nedenle biraz daha kaba öğütülmüş kahve kullanın.</li>
+        <li>Su dökerken filtrenin kenarlarına değmemeye çalışın, bu kahvenin eşit demlenmesini sağlar.</li>
+        <li>Chemex'in ahşap kısmını çıkarabilir ve cam kısmı bulaşık makinesinde yıkayabilirsiniz.</li>
+        <li>Chemex'in boğaz kısmında bir hava kanalı vardır, bu kanalın tıkanmaması için filtreyi doğru yerleştirdiğinizden emin olun.</li>
+        <li>Chemex'te demlenen kahve soğudukça daha da lezzetli hale gelir, bu nedenle biraz soğumasına izin vermek iyi olabilir.</li>
+      </ul>
+    </div>
+    
+    <h3>Chemex için Uygun Kahve Çeşitleri</h3>
+    <p>Chemex, özellikle açık kavrulmuş, asitliği yüksek ve çiçeksi veya meyvemsi notaları olan kahveler için mükemmeldir. Etiyopya Yirgacheffe, Kenya, Guatemala ve Kosta Rika gibi bölgelerden gelen kahveler, Chemex ile demlendiklerinde muhteşem sonuçlar verir. Chemex'in filtreleme özelliği, bu kahvelerin karmaşık aromalarını ve inceliklerini ortaya çıkarır.</p>
+    
+    <div class="navigation-links">
+      <a href="/sayfa5">Sonraki: AeroPress →</a>
+      <a href="/sayfa3">← Önceki: Pour Over</a>
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  .coffee-article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+</style>

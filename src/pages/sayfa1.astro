@@ -1,14 +1,96 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Sayfa 1";
+const pageTitle = "Espresso - Kahve Yapım Teknikleri";
 ---
 <BaseLayout title={pageTitle}>
-  <h2>Sayfa 1 Başlığı</h2>
-  <p>Bu sayfa 1'in içeriğidir. Lorem ipsum dolor sit amet...</p>
-  <p>Diğer sayfalara linkler:</p>
-  <ul>
-    <li><a href="/sayfa2">Sayfa 2'ye git</a></li>
-    <li><a href="/sayfa5">Sayfa 5'e git</a></li>
-    <li><a href="/">Ana Sayfa'ya dön</a></li>
-  </ul>
+  <article class="coffee-article">
+    <h2>Espresso</h2>
+    
+    <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Espresso" class="coffee-image">
+    
+    <div class="coffee-info">
+      <span class="coffee-info-item">Zorluk: Orta</span>
+      <span class="coffee-info-item">Süre: 2 dk</span>
+      <span class="coffee-info-item">Yoğunluk: Yüksek</span>
+      <span class="coffee-info-item">Ekipman: Espresso Makinesi</span>
+    </div>
+    
+    <p class="lead">Espresso, yüksek basınç altında sıcak suyun ince öğütülmüş kahveden geçirilmesiyle elde edilen yoğun ve aromatik bir kahve çeşididir. İtalyan kahve kültürünün temel taşı olan espresso, birçok popüler kahve içeceğinin de temelini oluşturur.</p>
+    
+    <h3>Espresso'nun Özellikleri</h3>
+    <p>İyi bir espresso, üzerinde "crema" adı verilen altın-kahverengi bir köpük tabakasına sahiptir. Bu tabaka, kahvenin taze olduğunu ve doğru şekilde hazırlandığını gösterir. Espresso, yoğun aroması ve güçlü tadıyla bilinir, ancak yaygın inanışın aksine, espresso normal filtre kahveye göre daha az kafein içerir (daha az su kullanıldığı için).</p>
+    
+    <h3>Gerekli Ekipmanlar</h3>
+    <ul>
+      <li>Espresso makinesi</li>
+      <li>Kahve değirmeni (taze çekilmiş kahve için)</li>
+      <li>Tamper (kahveyi sıkıştırmak için)</li>
+      <li>Espresso fincanı</li>
+    </ul>
+    
+    <h3>Malzemeler</h3>
+    <ul>
+      <li>18-20 gram taze çekilmiş espresso kahvesi (ince öğütülmüş)</li>
+      <li>Yaklaşık 30 ml su</li>
+    </ul>
+    
+    <h3>Hazırlama Adımları</h3>
+    <ol class="recipe-steps">
+      <li>Espresso makinenizi açın ve ısınmasını bekleyin.</li>
+      <li>Kahve çekirdeklerini espresso için uygun incelikte öğütün (pudra şekeri kıvamında).</li>
+      <li>Portafiltre'yi (kahve tutucuyu) alın ve kurulayın.</li>
+      <li>18-20 gram kahveyi portafiltre'ye yerleştirin.</li>
+      <li>Tamper ile kahveyi eşit şekilde ve yaklaşık 13-15 kg basınçla sıkıştırın.</li>
+      <li>Portafiltre'yi makineye takın ve hemen demlenmeyi başlatın.</li>
+      <li>25-30 saniye içinde yaklaşık 30 ml espresso elde etmeyi hedefleyin.</li>
+      <li>Demlenme tamamlandığında, espressonuzu hemen servis edin.</li>
+    </ol>
+    
+    <h3>İpuçları</h3>
+    <div class="coffee-card">
+      <ul>
+        <li>İdeal espresso için "1:2" oranını hedefleyin - 18 gram kahve için 36 gram (yaklaşık 30 ml) espresso.</li>
+        <li>Espresso çekerken akış hızı çok önemlidir. Çok hızlı akıyorsa kahve daha ince öğütülmeli, çok yavaş akıyorsa daha kaba öğütülmelidir.</li>
+        <li>Taze kavrulmuş kahve kullanın (ideal olarak kavurma tarihinden sonraki 5-21 gün arası).</li>
+        <li>Espresso'nuzu çektikten hemen sonra için, bekledikçe crema kaybolur ve tat değişir.</li>
+      </ul>
+    </div>
+    
+    <h3>Espresso Bazlı İçecekler</h3>
+    <p>Espresso, birçok popüler kahve içeceğinin temelini oluşturur:</p>
+    <ul>
+      <li><strong>Americano:</strong> Espresso üzerine sıcak su eklenerek yapılır.</li>
+      <li><strong>Cappuccino:</strong> Espresso, buharla ısıtılmış süt ve süt köpüğü ile hazırlanır.</li>
+      <li><strong>Latte:</strong> Espresso üzerine daha fazla buharla ısıtılmış süt ve az miktarda süt köpüğü eklenir.</li>
+      <li><strong>Macchiato:</strong> Espresso üzerine az miktarda süt köpüğü eklenir.</li>
+      <li><strong>Mocha:</strong> Espresso, sıcak çikolata ve buharla ısıtılmış süt karışımıdır.</li>
+    </ul>
+    
+    <div class="navigation-links">
+      <a href="/sayfa2">Sonraki: French Press →</a>
+      <a href="/">← Ana Sayfa'ya dön</a>
+    </div>
+  </article>
 </BaseLayout>
+
+<style>
+  .coffee-article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 1.5rem 0;
+  }
+  
+  .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+</style>
