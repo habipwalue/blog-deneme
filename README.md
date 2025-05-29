@@ -1,47 +1,29 @@
-# Astro Starter Kit: Minimal
+# Kahve Dünyası - Blog Deneme
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Bu proje Astro framework'ü kullanılarak oluşturulmuş temel bir kahve blogu örneğidir. Kahve yapım teknikleri, çeşitleri ve lezzet sırlarını keşfedin.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+## Proje Yapısı
 
 ```text
 /
-├── public/
+├── public/        # Statik varlıklar (resimler, favicon vb.)
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/ # Bileşenler
+│   ├── layouts/    # Sayfa düzenleri
+│   ├── pages/      # Sayfa dosyaları (.astro)
+│   └── styles/     # CSS dosyaları
+└── package.json   # Proje bağımlılıkları ve komutlar
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Kurulum ve Çalıştırma
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```sh
+npm install
+npm run dev     # Geliştirme sunucusunu başlatır (http://localhost:53736)
+npm run build   # Üretim için siteyi build eder (./dist)
+npm run preview # Üretim build'ini yerel olarak önizler
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Katkıda Bulunma
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Pull request oluşturarak katkıda bulunabilirsiniz. Lütfen ana branch'e doğrudan commit göndermeyin.

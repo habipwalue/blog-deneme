@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Sayfa Bulunamadı - 404";
+---
+<BaseLayout title={pageTitle}>
+  <h2>Üzgünüz, aradığınız sayfa bulunamadı.</h2>
+  <p>Belki <a href="/">ana sayfaya</a> dönmek isteyebilirsiniz.</p>
+</BaseLayout>
+<style>
+  h2 { text-align: center; margin-top: 2rem; color: var(--primary-color); }
+  p { text-align: center; }
+</style>
